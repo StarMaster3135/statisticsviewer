@@ -1,0 +1,12 @@
+name: StatsPlugin
+version: '1.0'
+main: com.starmaster.statsplugin.StatsPlugin
+api-version: '1.21'
+author: StarMaster
+description: A stats viewer plugin with GUI
+
+commands:
+  stats:
+    description: Open the stats menu
+    usage: /stats
+    aliases: [statistics, playerstats]
